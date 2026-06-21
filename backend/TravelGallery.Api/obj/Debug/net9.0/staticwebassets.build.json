@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "CH+pAESa4CY0ggmMSAjw80D+H6fmMkoMBVhK6ZAuGKs=",
+  "Source": "TravelGallery.Api",
+  "BasePath": "_content/TravelGallery.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

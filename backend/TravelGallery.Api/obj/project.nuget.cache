@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SNLv1ZxK9v4=",
+  "success": true,
+  "projectFilePath": "/Users/pontus/TravelGallery/backend/TravelGallery.Api/TravelGallery.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/pontus/.nuget/packages/microsoft.aspnetcore.openapi/9.0.3/microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
+    "/Users/pontus/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
