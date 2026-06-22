@@ -1,0 +1,32 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e3ded4;
+}
+
+.app-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.active-link {
+  font-weight: 700;
+}
+
+.app-main {
+  padding: 1.5rem;
+}
