@@ -9,8 +9,13 @@ import { Trip } from '../models/trip';
 })
 export class TripsService {
   private readonly http = inject(HttpClient);
+  private readonly apiUrl = 'http://localhost:5146/api/trips';
 
   getTrips(): Observable<Trip[]> {
-    return this.http.get<Trip[]>('http://localhost:5146/api/trips');
+    return this.http.get<Trip[]>(this.apiUrl);
+  }
+
+  getTrip(id: number): Observable<Trip> {
+    return this.http.get<Trip>(`${this.apiUrl}/${id}`);
   }
 }
