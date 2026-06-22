@@ -1,0 +1,29 @@
+<section class="map-page">
+  <div class="map-header">
+    <div>
+      <h1>Travel Map</h1>
+      <p>Explore trips by location. Each marker represents a photo location cluster.</p>
+    </div>
+
+    <a routerLink="/trips">View trips</a>
+  </div>
+
+  <div id="travel-map" class="map"></div>
+
+  <section class="location-list">
+    <h2>Locations</h2>
+
+    @for (trip of trips(); track trip.id) {
+      <article>
+        <h3>{{ trip.title }}</h3>
+
+        @for (location of trip.locations; track location.id) {
+          <p>
+            <strong>{{ location.name }}</strong>
+            <span>{{ location.country }}</span>
+          </p>
+        }
+      </article>
+    }
+  </section>
+</section>
