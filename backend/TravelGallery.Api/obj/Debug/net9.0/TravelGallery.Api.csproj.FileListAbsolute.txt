@@ -31,3 +31,4 @@
 /Users/pontus/TravelGallery/backend/TravelGallery.Api/obj/Debug/net9.0/TravelGallery.Api.pdb
 /Users/pontus/TravelGallery/backend/TravelGallery.Api/obj/Debug/net9.0/TravelGallery.Api.genruntimeconfig.cache
 /Users/pontus/TravelGallery/backend/TravelGallery.Api/obj/Debug/net9.0/ref/TravelGallery.Api.dll
+/Users/pontus/TravelGallery/backend/TravelGallery.Api/obj/Debug/net9.0/TravelGallery.Api.sourcelink.json

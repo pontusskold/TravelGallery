@@ -1,0 +1,17 @@
+<h1>Trips</h1>
+
+<p>Count: {{ trips().length }}</p>
+
+@for (trip of trips(); track trip.id) {
+  <div>
+    <h2>{{ trip.title }}</h2>
+
+    <p>{{ trip.country }}</p>
+
+    <p>{{ trip.description }}</p>
+
+    <p>Locations: {{ trip.locations.length }}</p>
+
+    <hr />
+  </div>
+}

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TravelGallery.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0103c0850b64dd911641b63daeae52326ac9c54c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+308cdc7fe0aeed7f3ca80437b22a78cc0715314b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TravelGallery.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TravelGallery.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
