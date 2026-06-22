@@ -1,0 +1,50 @@
+.map-page {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.map-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.map-header h1 {
+  margin-bottom: 0.25rem;
+}
+
+.map-header p {
+  margin-top: 0;
+  color: #5f5a52;
+}
+
+.map {
+  min-height: 520px;
+  border: 1px solid #d8d0c2;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #e6e0d7;
+}
+
+.location-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.location-list article {
+  padding: 1rem;
+  border: 1px solid #e3ded4;
+  border-radius: 0.75rem;
+  background: #ffffff;
+}
+
+.location-list h3 {
+  margin-top: 0;
+}
+
+.location-list p {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0;
+}
