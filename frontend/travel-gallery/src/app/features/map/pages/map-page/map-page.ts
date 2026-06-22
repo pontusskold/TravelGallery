@@ -55,11 +55,11 @@ export class MapPage implements AfterViewInit, OnDestroy {
 
     this.markers.clearLayers();
 
-    const markerBounds: L.LatLngExpression[] = [];
+    const markerBounds: L.LatLngTuple[] = [];
 
     for (const trip of trips) {
       for (const location of trip.locations) {
-        const coordinates: L.LatLngExpression = [location.latitude, location.longitude];
+        const coordinates: L.LatLngTuple = [location.latitude, location.longitude];
 
         markerBounds.push(coordinates);
 
