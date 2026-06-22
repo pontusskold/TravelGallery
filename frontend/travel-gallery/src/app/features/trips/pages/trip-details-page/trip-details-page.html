@@ -1,0 +1,21 @@
+<a routerLink="/trips">Back to trips</a>
+
+@if (trip(); as selectedTrip) {
+  <h1>{{ selectedTrip.title }}</h1>
+
+  <p>{{ selectedTrip.country }}</p>
+  <p>{{ selectedTrip.description }}</p>
+
+  <h2>Locations</h2>
+
+  @for (location of selectedTrip.locations; track location.id) {
+    <section>
+      <h3>{{ location.name }}</h3>
+      <p>{{ location.country }}</p>
+      <p>Photos: {{ location.photoCount }}</p>
+      <p>Coordinates: {{ location.latitude }}, {{ location.longitude }}</p>
+    </section>
+  }
+} @else {
+  <p>Loading trip...</p>
+}
