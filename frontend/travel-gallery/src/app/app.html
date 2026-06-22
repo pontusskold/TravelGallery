@@ -1,1 +1,12 @@
-<router-outlet />
+<header class="app-header">
+  <a routerLink="/trips" class="app-title">TravelGallery</a>
+
+  <nav>
+    <a routerLink="/trips" routerLinkActive="active-link">Trips</a>
+    <a routerLink="/map" routerLinkActive="active-link">Map</a>
+  </nav>
+</header>
+
+<main class="app-main">
+  <router-outlet />
+</main>
